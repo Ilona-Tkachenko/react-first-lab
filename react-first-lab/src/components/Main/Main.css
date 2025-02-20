@@ -1,40 +1,40 @@
 .main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background-color: #c09ac9;
     text-align: center;
+    padding: 50px;
+    background-color: #e2cfe4;
+    border-radius: 16px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 700px;
+    margin: 100px auto;
 }
 
 .main__title {
-    font-size: 32px;
-    color: #252525;
-    margin-bottom: 16px;
+    color: #333;
+    font-size: 24px;
 }
 
 .main__text {
-    font-size: 19px;
-    color: #393939;
-    margin-bottom: 24px;
+    color: #373333;
+    font-size: 18px;
 }
 
 .main__button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #d8d7d7;
-    background-color: #472d6f;
+    padding: 16px 26px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(251, 248, 248);
+    background-color: #603a76;
     border: none;
-    border-radius: 5px;
+    border-radius: 14px;
     transition: all 0.3s ease;
+    outline: none;
 }
 
 .main__button:hover {
+    background-color: #3c164e;
     cursor: pointer;
-    background-color: #370b61;
 }
 
 .main__button:active {
-    transform: scale(0.95);
+    transform: scale(0.85);
 }
